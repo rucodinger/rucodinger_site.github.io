@@ -1,0 +1,219 @@
+/*
+ * Globals
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+  margin-right: 70px;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+.cod-logo {
+  border-radius: 20px;
+}
+
+.python-img {
+  float: left;
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+}
+
+.course-img {
+  float: left;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.linux-img {
+    float: left;
+    display: block;
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.kotlin-img {
+  float: right;
+  display: block;
+  width: 175px;
+  height: 175px;
+  margin-left: 350px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.course-card {
+    padding: 2rem;
+    border: 2px dashed #c98787;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+.course-desc {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.course-desc-aft {
+  margin-top: 30px;
+}
+
+.course-video {
+  border-radius: 20px;
+}
+
+.course-title {
+  margin-top: 50px;
+}
+
+.video-code-text {
+    margin-top: 60px;
+}
+
+.next-lesson-btn {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.pyqt-img {
+  float: left;
+  display: block;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.podpiska {
+  padding: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border: 2px solid #4d943e;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+  border-radius: 20px;
+}
+
+.podpiska-text {
+  font-family: 'Roboto', sans-serif;
+}
+
+.podpiska-link {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: aquamarine;
+}
+
+.podpiska-link:hover {
+  opacity: 0.5;
+  color: aquamarine;
+}
